@@ -20,7 +20,7 @@ border-right: 1px dotted #fff;
 class Link extends React.Component {
 	reder(){
 		return(
-				<StyledLink href={this.props.link}> {this.props.text}</StyledLink>
+				<StyledLink active href={this.props.link}> {this.props.text}</StyledLink>
 			)
 	}
 }

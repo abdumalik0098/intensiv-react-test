@@ -33,4 +33,5 @@ import registerServiceWorker from './registerServiceWorker';
 {/*const elem= <FullName name="Sami" surname="Yusuf" link="vk.com" />*/}
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
 registerServiceWorker();
